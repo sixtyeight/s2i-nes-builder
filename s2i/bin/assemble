@@ -24,7 +24,7 @@ cp -Rf /tmp/src/. ./
 
 echo "---> Building application from source..."
 
-PATH="/opt/cc65/bin:${PATH}"
+PATH="/home/m68k/git/cc65/bin:${PATH}"
 make
 
 cp ./*.nes /opt/app-root
